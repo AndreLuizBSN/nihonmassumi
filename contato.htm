@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="jquery-3.1.0.min.js"></script>
     <script src="script.js"></script>
-    <title>Massumi Sensei</title>
+    <title>Massumi Sensei - Contato</title>
 </head>
 <body>
     <header>
@@ -15,19 +15,41 @@
         <h2>Japonês com Massumi Sensei</h2>
     </header>
     <nav>
-        <a href="index.htm" class="selected">Home</a>
+        <a href="index.htm">Home</a>
         <a href="sobre.htm">Sobre</a>
         <a href="#">Artigos</a>
-        <a href="contato.htm">Contato</a>
+        <a href="contato.htm" class="selected">Contato</a>
     </nav>
     <main>
         <article>
-            <header>Postagem principal</header>
+            <header>Contato</header>
             <section>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                <img src="img/japan.jpg" alt="">
-                <div class="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4OGr8gbBU4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="social">
+                    <a href="#" target="blank" class="">
+                        <img src="img/facebook.png" class="icon-contact" alt="">
+                    </a>
+                    <a href="#" target="blank">
+                        <img src="img/mail.png" class="icon-contact" alt="">
+                    </a>
+                    <a href="#" target="blank">
+                        <img src="img/whatsapp.ico" class="icon-contact" alt="">
+                    </a>
+                    <a href="#" target="blank">
+                        <img src="img/phone.png" class="icon-contact" alt="">
+                    </a>
+                </div>
+                <div class="form-contact">
+                    <h3>Fale conosco</h3>
+                    <label for="name">Nome</label>
+                    <input type="text" name="" id="name">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="" id="email">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" name="" id="Phone">
+                    <label for="message">Mensagem</label>
+                    <textarea name="" id="message" cols="30" rows="10"></textarea>
+                    <button class="send-message">Enviar</button>
+
                 </div>
             </section>
         </article>
